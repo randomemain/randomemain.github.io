@@ -28,7 +28,7 @@ else
 }
 ```
 
-## **Activity - 1**
+## **Task - 1**
 
 ### Write a program to evaluate the eligibility of a candidate for a position. The candidate should get an average of 80 in all the tests, the candidate gender should be male. The candidate should belongs to local region.
 
@@ -100,3 +100,87 @@ switch(parameter)
         break;
 }
 ```
+
+## **Task - 1**
+
+### A Basic Calculator using Menus
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int opt, n1, n2;
+
+    printf("Enter First Number: ");
+    scanf("%d", &n1);
+    printf("Enter Second Number: ");
+    scanf("%d", &n2);
+
+    printf("\n1. Add\n2. Subtract\n3. Multiply\n4. Divide\n: ");
+    scanf("%d", &opt);
+
+    printf("\nResult: ");
+
+    switch (opt)
+    {
+    case 1:
+        printf("%d\n", n1 + n2);
+        break;
+    case 2:
+        printf("%d\n", n1 - n2);
+        break;
+    case 3:
+        printf("%d\n", n1 * n2);
+        break;
+    case 4:
+        printf("%d\n", n1 / n2);
+        break;
+    default:
+        printf("[nil]\n");
+        break;
+    }
+
+    return 0;
+}
+```
+
+## **Task - 2**
+
+### Vowel or Consonant
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char alphabet;
+    printf("Enter an alphabet: ");
+    scanf("%c", &alphabet);
+
+    switch (alphabet)
+    {
+    case 'a':
+        printf("Is a vowel\n");
+        break;
+    case 'e':
+        printf("Is a vowel\n");
+        break;
+    case 'i':
+        printf("Is a vowel\n");
+        break;
+    case 'o':
+        printf("Is a vowel\n");
+        break;
+    case 'u':
+        printf("Is a vowel\n");
+        break;
+    default:
+        printf("Is a cosonent\n");
+        break;
+    }
+
+    return 0;
+}
+```
+
