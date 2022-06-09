@@ -1,11 +1,11 @@
 # **Date: 09-06-2022**
 ## **Session Objectives**
 
-+ Continue Working with Conditional Constructs
-+ Implementing nested if Construct
-+ Understanding Menu Driven Prigramming
-+ Implementing Menu Driven Programming using switch case
-+ Tricky Code approach of switch case
++ ### Continue Working with Conditional Constructs
++ ### Implementing nested if Construct
++ ### Understanding Menu Driven Prigramming
++ ### Implementing Menu Driven Programming using switch case
++ ### Tricky Code approach of switch case
 
 ## **Nested If**
 
@@ -34,8 +34,8 @@ else
 
 ## Data Type :
 
-+ char - which stores only one character
-+ float - to store the average
++ ### char - which stores only one character
++ ### float - to store the average
 
 ## Variables :
 
@@ -76,10 +76,10 @@ int main()
 
 ## **Menu Driven Programming**
 
-+ Menu is a list of options, can be selected by user in computer applications terminology.
-+ In C we can develop menu driven applications, application allows the user to select an option from menu.
-+ switch case is a construct to create menu driven applications
-+ In GUI environment the Menu's are Drop Down, Pop-Up, or it can be of any other format.
++ ### Menu is a list of options, can be selected by user in computer applications terminology.
++ ### In C we can develop menu driven applications, application allows the user to select an option from menu.
++ ### switch case is a construct to create menu driven applications
++ ### In GUI environment the Menu's are Drop Down, Pop-Up, or it can be of any other format.
 
 ## Syntax :
 
@@ -100,5 +100,3 @@ switch(parameter)
         break;
 }
 ```
-
-## Example
