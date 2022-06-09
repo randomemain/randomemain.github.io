@@ -34,6 +34,7 @@ else
 + float avg;
 + char gender, region;
 ## Program Code :
+
 ```
 #include <stdio.h>
 
@@ -70,6 +71,7 @@ int main()
 + switch case is a construct to create menu driven applications
 + In GUI environment the Menu's are Drop Down, Pop-Up, or it can be of any other format.
 ## Syntax :
+
 ```
 switch(parameter)
 {
