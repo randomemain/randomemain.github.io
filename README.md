@@ -30,7 +30,7 @@ else
 
 ## **Task - 1**
 
-### Write a program to evaluate the eligibility of a candidate for a position. The candidate should get an average of 80 in all the tests, the candidate gender should be male. The candidate should belongs to local region.
+#### Write a program to evaluate the eligibility of a candidate for a position. The candidate should get an average of 80 in all the tests, the candidate gender should be male. The candidate should belongs to local region.
 
 ```c
 #include <stdio.h>
@@ -91,7 +91,7 @@ switch(parameter)
 
 ## **Task - 1**
 
-### A Basic Calculator using Menus
+#### A Basic Calculator using Menus
 
 ```c
 #include <stdio.h>
@@ -135,7 +135,7 @@ int main()
 
 ## **Task - 2**
 
-### Vowel or Consonant
+#### Vowel or Consonant
 
 ```c
 #include <stdio.h>
@@ -171,4 +171,3 @@ int main()
     return 0;
 }
 ```
-
