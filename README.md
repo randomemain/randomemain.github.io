@@ -11,7 +11,7 @@
 
 ## Syntax :
 
-```
+```c
 if(condition)
 {
     if(another_condition)
@@ -44,7 +44,7 @@ else
 
 ## Program Code :
 
-```
+```c
 #include <stdio.h>
 
 int main()
@@ -83,7 +83,7 @@ int main()
 
 ## Syntax :
 
-```
+```c
 switch(parameter)
 {
     case 1:
