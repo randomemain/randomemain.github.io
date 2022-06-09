@@ -32,18 +32,6 @@ else
 
 ### Write a program to evaluate the eligibility of a candidate for a position. The candidate should get an average of 80 in all the tests, the candidate gender should be male. The candidate should belongs to local region.
 
-## Data Type :
-
-+ ### char - which stores only one character
-+ ### float - to store the average
-
-## Variables :
-
-+ float avg;
-+ char gender, region;
-
-## Program Code :
-
 ```c
 #include <stdio.h>
 
