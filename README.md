@@ -6,11 +6,10 @@
 + ### Understanding Menu Driven Prigramming
 + ### Implementing Menu Driven Programming using switch case
 + ### Tricky Code approach of switch case
----
 
 ## **Nested If**
 
-## Syntax :
+### **Syntax :**
 
 ```c
 if(condition)
@@ -31,7 +30,7 @@ else
 
 ## **Task - 1**
 
-#### Write a program to evaluate the eligibility of a candidate for a position. The candidate should get an average of 80 in all the tests, the candidate gender should be male. The candidate should belongs to local region.
+##### Write a program to evaluate the eligibility of a candidate for a position. The candidate should get an average of 80 in all the tests, the candidate gender should be male. The candidate should belongs to local region.
 
 ```c
 #include <stdio.h>
@@ -175,9 +174,11 @@ int main()
 
 # **Date: 10-06-2022**
 ## **Session Objectives**
+
 + ### Implementing Reptitive Process
----
-## Loop :
+
+### **Loop :**
+
 + ### A loop causes setion of a program to be repeated certain no. of times. The repetition continious as long as the loop condition holds true.
 + ### Loop Constructs are while, for, do while
 + ### Constructs based on type of Condition Ecaluations - entry loop (while loop and for loop), exit loop (do while)
