@@ -183,3 +183,39 @@ int main()
 + ### Loop Constructs are while, for, do while
 + ### Constructs based on type of Condition Ecaluations - entry loop (while loop and for loop), exit loop (do while)
 + ### Type of loop process - fixed no. of iterations, variable no. of iterations.
+
+### **Unary Operator :**
+
++ ### Unary Increment  -  ```<variable_name>++ (or) ++<variable_name>```
++ ### Unary Decrement  -  ```<variable_name>-- (or) --<variable_name>```
+
+## **Task - 1**
+
+### Find the sum of even and odd numbers
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int a[10], sum[2] = { 0 };
+
+    printf("Enter numbers:\n");
+    for (int i = 0; i < 10; i++)
+    {
+        printf("Element - %d: ", i + 1);
+        scanf("%d", &a[i]);
+    }
+    
+    for (int i = 0; i < 10; i++)
+    {
+        if (a[i] % 2) sum[0] += a[i];
+        else sum[1] += a[i];
+    }
+    
+
+    printf("Sum of odd numbers: %d\nSum of even numbers: %d\n", sum[0], sum[1]);
+
+    return 0;
+}
+```
