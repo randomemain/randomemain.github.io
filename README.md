@@ -6,6 +6,7 @@
 + ### Understanding Menu Driven Prigramming
 + ### Implementing Menu Driven Programming using switch case
 + ### Tricky Code approach of switch case
+---
 
 ## **Nested If**
 
@@ -171,3 +172,13 @@ int main()
     return 0;
 }
 ```
+
+# **Date: 10-06-2022**
+## **Session Objectives**
++ ### Implementing Reptitive Process
+---
+## Loop :
++ ### A loop causes setion of a program to be repeated certain no. of times. The repetition continious as long as the loop condition holds true.
++ ### Loop Constructs are while, for, do while
++ ### Constructs based on type of Condition Ecaluations - entry loop (while loop and for loop), exit loop (do while)
++ ### Type of loop process - fixed no. of iterations, variable no. of iterations.
