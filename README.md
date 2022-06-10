@@ -191,7 +191,7 @@ int main()
 
 ## **Task - 1**
 
-### Find the sum of even and odd numbers
+#### Find the sum of even and odd numbers
 
 ```c
 #include <stdio.h>
@@ -215,6 +215,37 @@ int main()
     
 
     printf("Sum of odd numbers: %d\nSum of even numbers: %d\n", sum[0], sum[1]);
+
+    return 0;
+}
+```
+
+## **Task - 2**
+
+#### Pattren Printing
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int i = 0, j, k = 0;
+
+    while (i <= 5)
+    {
+        if (i < 0) break;
+        j = 0;
+        while (j <= i)
+        {
+            printf("*  ");
+            j++;
+        }
+        printf("\n");
+        if (i >= 5) k = 1;
+
+        if (k == 1) i--;
+        else i++;
+    }
 
     return 0;
 }
