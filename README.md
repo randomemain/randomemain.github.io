@@ -66,7 +66,7 @@ int main()
 
 + ### Menu is a list of options, can be selected by user in computer applications terminology.
 + ### In C we can develop menu driven applications, application allows the user to select an option from menu.
-+ ### switch case is a construct to create menu driven applications
++ ### switch case is a construct to create menu driven applications.
 + ### In GUI environment the Menu's are Drop Down, Pop-Up, or it can be of any other format.
 
 ## Syntax :
@@ -180,8 +180,8 @@ int main()
 ### **Loop :**
 
 + ### A loop causes setion of a program to be repeated certain no. of times. The repetition continious as long as the loop condition holds true.
-+ ### Loop Constructs are while, for, do while
-+ ### Constructs based on type of Condition Ecaluations - entry loop (while loop and for loop), exit loop (do while)
++ ### Loop Constructs are while, for, do while.
++ ### Constructs based on type of Condition Ecaluations - entry loop (while loop and for loop), exit loop (do while).
 + ### Type of loop process - fixed no. of iterations, variable no. of iterations.
 
 ### **Unary Operator :**
@@ -297,4 +297,40 @@ for (initialization; condition; inc/dec;)
 ```
 
 + ### Inner loop execution always depends on the result of outer loop.
+
+#### **Example :**
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    for(int i = 0; i <= 4; i++)
+    {
+        for(int j = 0; j <= 4; j++)
+        {
+            printf("*");
+        }
+        printf("\n);
+    }
+
+    return 0;
+}
+```
+
+## **Task - 1**
+
+#### Extend the same program with few changes to get the following result.
+
+```
+*       0       1
+**      01      12
+***     012     123
+****    0123    1234
+*****   01234   12345
+```
+
++ ### while loop and for loop are entry loops.
++ ### These constructs check the condition first and based on the condition, these constructs execute the statements.
++ ### If condition is true then statements of the loop runs other wise exit from the loop.
 
