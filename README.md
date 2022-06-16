@@ -260,7 +260,8 @@ int main()
 
 + ### It is a compact loop construct due to the concise nature, it is widely used by programmers.
 + ### In while loop we write three components in separate lines.
-+ ## Syntax of while loop:
+
+## Syntax of while loop:
 
 ```c
 while (condition)
@@ -270,7 +271,8 @@ while (condition)
 ```
 
 + ### The increases overhead of system related to consumption of memory, no. of I/O operations and CUP utilization.
-+ ## Sytax of for loop:
+
+## Sytax of for loop:
 
 ```c
 for (initialization; condition; inc/dec)
