@@ -172,6 +172,8 @@ int main()
 }
 ```
 
+---
+
 # **Date: 10-06-2022**
 ## **Session Objectives**
 
@@ -250,6 +252,8 @@ int main()
     return 0;
 }
 ```
+
+---
 
 # **Date: 16-06-2022**
 ## **Session Objectives**
@@ -330,7 +334,7 @@ int main()
 *****   01234   12345
 ```
 
----
+----
 
 + ### while loop and for loop are entry loops.
 + ### These constructs check the condition first and based on the condition, these constructs execute the statements.
