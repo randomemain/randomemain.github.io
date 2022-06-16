@@ -254,9 +254,9 @@ int main()
 # **Date: 16-06-2022**
 ## **Session Objectives**
 
-+ ### Continue Working with Conditional Constructs
++ ### Continue Working with Loop Constructs
 
-## **Working with for loop construct**
+## **Working with loop construct**
 
 + ### It is a compact loop construct due to the concise nature, it is widely used by programmers.
 + ### In while loop we write three components in separate lines.
