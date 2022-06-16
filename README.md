@@ -346,7 +346,7 @@ int main()
 + ### If condtitional expression in do while is valid, it is same as while and for.
 + ### In simple meaning, if you want to execute the statemets of the loop atleast once without checking the condition fitst, you can use do while loop.
 
-+ ### **Syntax :**
++ # **Syntax :**
 ```c
 do
 {
