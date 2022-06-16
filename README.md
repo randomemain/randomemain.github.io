@@ -334,8 +334,6 @@ int main()
 *****   01234   12345
 ```
 
-===
-
 + ### while loop and for loop are entry loops.
 + ### These constructs check the condition first and based on the condition, these constructs execute the statements.
 + ### If condition is true then statements of the loop runs other wise exit from the loop.
