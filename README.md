@@ -340,3 +340,20 @@ int main()
 + ### These constructs check the condition first and based on the condition, these constructs execute the statements.
 + ### If condition is true then statements of the loop runs other wise exit from the loop.
 
+### **do while loop :**
+
++ ### It is an exit loop construct.
++ ### The do while loop construct does not check the condititon first.
++ ### It executes the satements of the body once and checks the condition at end.
++ ### If condtitional expression in do while is valid, it is same as while and for.
++ ### In simple meaning, if you want to execute the statemets of the loop atleast once without checking the condition fitst, you can use do while loop.
+
++ ### **Syntax :**
+```c
+do
+{
+    exec statements
+    inc/dec
+} while (condition);
+```
+
