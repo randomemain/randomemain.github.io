@@ -250,3 +250,33 @@ int main()
     return 0;
 }
 ```
+
+# **Date: 16-06-2022**
+## **Session Objectives**
+
++ ### Continue Working with Conditional Constructs
+
+## **Working with for loop construct**
+
++ ### It is a compact loop construct due to the concise nature, it is widely used by programmers.
++ ### In while loop we write three components in separate lines.
++ ## Syntax of while loop:
+
+```c
+while (condition)
+{
+    inc/dec
+}
+```
+
++ ### The increases overhead of system related to consumption of memory, no. of I/O operations and CUP utilization.
++ ## Sytax of for loop:
+
+```c
+for (initialization; condition; inc/dec)
+{
+
+}
+```
+
++ ### In the process of for loop execution the initialization takes place only one time in the life of the program.
