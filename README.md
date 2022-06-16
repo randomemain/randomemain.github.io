@@ -347,6 +347,7 @@ int main()
 + ### In simple meaning, if you want to execute the statemets of the loop atleast once without checking the condition fitst, you can use do while loop.
 
 ### **Syntax :**
+
 ```c
 do
 {
@@ -355,3 +356,38 @@ do
 } while (condition);
 ```
 
+### **Example :**
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int num, i = 10;
+    char choice;
+
+    do
+    {
+        printf("Enter Number: \n");
+        scanf("%d", &num);
+        getc();
+        if (num > 0)
+            printf("Positive\n");
+        else
+            printf("Negative\n");
+        i++;
+
+        printf("Do you want to continue [ Y / N ]? ");
+        scanf("%c", &choice);
+        getc();
+    } while (choice == 'y');
+}
+```
+
+## **Understanding Premitive Data Types and Secondary Data Types**
+
+| Primary | Secondary |
+| ------- | --------- |
+| int     | arrays    |
+| float   | structure & union |
+| char    | enum      |
